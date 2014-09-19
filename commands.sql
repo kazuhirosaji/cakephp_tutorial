@@ -1,5 +1,5 @@
 create database cake_blog;
-grant all on cake_blog.* to dbuser@localhost identified by 'kazuhirosaji';
+grant all on cake_blog.* to dbuser@localhost identified by '*****';
 
 use cake_blog
 
