@@ -21,7 +21,6 @@ class PostsController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Post->create();
-			pr($this->request->$data); // for debug
 			if ($this->Post->save($this->request->data)) {
 				$this->Session->setFlash(__('Your post has been saved.'));
 				return $this->redirect(array('action' => 'index'));
