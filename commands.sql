@@ -1,7 +1,7 @@
-create database cake_blog;
-grant all on cake_blog.* to dbuser@localhost identified by '*****';
+create database sajitest;
+grant all on sajitest.* to dbuser@localhost identified by '*****';
 
-use cake_blog
+use sajitest
 
 /* まず、postsテーブルを作成します: */
 CREATE TABLE posts (
